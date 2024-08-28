@@ -1,36 +1,35 @@
-body {
-  font-family: Arial, sans-serif;
+/* src/App.css */
+
+/* Certifique-se de que o body e o root ocupem a tela toda */
+body, #root {
   margin: 0;
   padding: 0;
+  min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+  display: flex;
+  flex-direction: column;
 }
 
-header {
-  background-color: #f8a100;
-  padding: 20px;
-  text-align: center;
+/* Header e Footer estilos */
+Header, Footer {
+  width: 100%; /* Ocupa toda a largura da tela */
+  margin: 0;   /* Remove margens indesejadas */
+  padding: 10px 20px; /* Padding para espaçamento interno */
+  background-color: #f8f9fa; /* Cor de fundo, ajuste conforme sua necessidade */
+  box-sizing: border-box; /* Inclui o padding no cálculo do width */
 }
 
-header h1 {
-  margin: 0;
-  color: #fff;
+/* Footer colado no fundo */
+Footer {
+  margin-top: auto; /* Empurra o footer para o final da página */
+  text-align: center; /* Centraliza o texto do footer */
 }
 
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #fff;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-}
-
-div {
-  padding: 20px;
+/* Para manter o conteúdo centralizado e responsivo */
+.App {
+  max-width: 1200px; /* Limita a largura máxima da aplicação */
+  margin: 0 auto; /* Centraliza a aplicação horizontalmente */
+  padding: 0 1rem; /* Adiciona um pouco de padding nos lados */
+  flex: 1; /* Faz o contêiner principal crescer para ocupar o espaço disponível */
+  display: flex; /* Define o contêiner como flexível */
+  flex-direction: column; /* Organiza os elementos em coluna */
 }

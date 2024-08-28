@@ -1,0 +1,10 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #f8b400;
+    padding: 1rem;
+    text-align: center;
+    width: 100%; /* Ocupa toda a largura */
+    position: relative; /* Garante que o footer não tenha comportamento inesperado */
+    bottom: 0;
+  }
+  

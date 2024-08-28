@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '.header.css';
+import './header.css';
 
 function Header() {
   return (
-    <header>
-      <h1>Padaria do Pão Quente</h1>
-      <nav>
+    <header className="header">
+      <h1 className="header-title">Padaria do Pão Quente</h1>
+      <nav className="header-nav">
         <Link to="/">Home</Link>
         <Link to="/products">Produtos</Link>
         <Link to="/cart">Carrinho</Link>

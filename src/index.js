@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './App.css';
+import './index.css';
 import { CartProvider } from './pages/cartcontext'; // Certifique-se de que o caminho está correto
 
 ReactDOM.render(

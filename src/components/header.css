@@ -1,13 +1,20 @@
 /* src/components/Header.css */
 .header {
     background-color: #f8b400;
+    bottom: 20px;
     padding: 1rem;
     text-align: center;
+    width: 100%; /* Ocupa toda a largura */
+    position: relative; /* Garante que o header não tenha comportamento inesperado */
   }
   
   .header-title {
     font-size: 2rem;
     color: #fff;
+  }
+  
+  .header-nav {
+    margin-top: 10px;
   }
   
   .header-nav a {
