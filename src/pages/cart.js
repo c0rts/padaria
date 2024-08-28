@@ -3,7 +3,7 @@ import React from 'react';
 import { useCart } from './cartcontext'; // Ajuste o caminho conforme necessário
 
 function Cart() {
-    const { cart } = useCart();
+    const { cart, clearCart } = useCart(); // Inclui a função clearCart do contexto
 
     if (cart.length === 0) {
         return <p>Seu carrinho está vazio.</p>;
@@ -19,6 +19,7 @@ function Cart() {
                     </li>
                 ))}
             </ul>
+            <button onClick={clearCart}>Limpar Carrinho</button> {/* Botão para limpar o carrinho */}
         </div>
     );
 }
