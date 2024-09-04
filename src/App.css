@@ -26,10 +26,8 @@ Footer {
 
 /* Para manter o conteúdo centralizado e responsivo */
 .App {
-  max-width: 1200px; /* Limita a largura máxima da aplicação */
-  margin: 0 auto; /* Centraliza a aplicação horizontalmente */
-  padding: 0 1rem; /* Adiciona um pouco de padding nos lados */
   flex: 1; /* Faz o contêiner principal crescer para ocupar o espaço disponível */
   display: flex; /* Define o contêiner como flexível */
   flex-direction: column; /* Organiza os elementos em coluna */
+  background-color: rgb(245, 237, 224);
 }
