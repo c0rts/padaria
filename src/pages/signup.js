@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './../styles/sing in up.css';
 
 function Signup() {
   const [email, setEmail] = useState('');
@@ -12,7 +13,7 @@ function Signup() {
   };
 
   return (
-    <div>
+    <div className='campo-perfil'>
       <h2>Cadastro</h2>
       <input
         type="email"

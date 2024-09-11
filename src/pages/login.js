@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './../styles/sing in up.css'
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -12,7 +13,7 @@ function Login() {
   };
 
   return (
-    <div>
+    <div className='campo-perfil'>
       <h2>Login</h2>
       <input
         type="email"

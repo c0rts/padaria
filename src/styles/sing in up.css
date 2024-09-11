@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.campo-perfil{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    border: 2px solid black;
+    width: 450px;
+    height: 300px;
+}
